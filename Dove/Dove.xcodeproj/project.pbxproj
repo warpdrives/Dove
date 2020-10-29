@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		774427B0254ACED1002F8EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774427AF254ACED1002F8EB4 /* AppDelegate.swift */; };
+		774427B2254ACED1002F8EB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774427B1254ACED1002F8EB4 /* SceneDelegate.swift */; };
+		774427B4254ACED1002F8EB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774427B3254ACED1002F8EB4 /* ViewController.swift */; };
+		774427B7254ACED1002F8EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774427B5254ACED1002F8EB4 /* Main.storyboard */; };
+		774427B9254ACED3002F8EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774427B8254ACED3002F8EB4 /* Assets.xcassets */; };
+		774427BC254ACED3002F8EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774427BA254ACED3002F8EB4 /* LaunchScreen.storyboard */; };
+		774427C7254ACED4002F8EB4 /* DoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774427C6254ACED4002F8EB4 /* DoveTests.swift */; };
+		774427D2254ACED4002F8EB4 /* DoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774427D1254ACED4002F8EB4 /* DoveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		774427C3254ACED4002F8EB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774427A4254ACED1002F8EB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 774427AB254ACED1002F8EB4;
+			remoteInfo = Dove;
+		};
+		774427CE254ACED4002F8EB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774427A4254ACED1002F8EB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 774427AB254ACED1002F8EB4;
+			remoteInfo = Dove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		774427AC254ACED1002F8EB4 /* Dove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		774427AF254ACED1002F8EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		774427B1254ACED1002F8EB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		774427B3254ACED1002F8EB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		774427B6254ACED1002F8EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		774427B8254ACED3002F8EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		774427BB254ACED3002F8EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		774427BD254ACED3002F8EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774427C2254ACED4002F8EB4 /* DoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		774427C6254ACED4002F8EB4 /* DoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoveTests.swift; sourceTree = "<group>"; };
+		774427C8254ACED4002F8EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774427CD254ACED4002F8EB4 /* DoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		774427D1254ACED4002F8EB4 /* DoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoveUITests.swift; sourceTree = "<group>"; };
+		774427D3254ACED4002F8EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		774427A9254ACED1002F8EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774427BF254ACED4002F8EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774427CA254ACED4002F8EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		774427A3254ACED1002F8EB4 = {
+			isa = PBXGroup;
+			children = (
+				774427AE254ACED1002F8EB4 /* Dove */,
+				774427C5254ACED4002F8EB4 /* DoveTests */,
+				774427D0254ACED4002F8EB4 /* DoveUITests */,
+				774427AD254ACED1002F8EB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		774427AD254ACED1002F8EB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				774427AC254ACED1002F8EB4 /* Dove.app */,
+				774427C2254ACED4002F8EB4 /* DoveTests.xctest */,
+				774427CD254ACED4002F8EB4 /* DoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		774427AE254ACED1002F8EB4 /* Dove */ = {
+			isa = PBXGroup;
+			children = (
+				774427AF254ACED1002F8EB4 /* AppDelegate.swift */,
+				774427B1254ACED1002F8EB4 /* SceneDelegate.swift */,
+				774427B3254ACED1002F8EB4 /* ViewController.swift */,
+				774427B5254ACED1002F8EB4 /* Main.storyboard */,
+				774427B8254ACED3002F8EB4 /* Assets.xcassets */,
+				774427BA254ACED3002F8EB4 /* LaunchScreen.storyboard */,
+				774427BD254ACED3002F8EB4 /* Info.plist */,
+			);
+			path = Dove;
+			sourceTree = "<group>";
+		};
+		774427C5254ACED4002F8EB4 /* DoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				774427C6254ACED4002F8EB4 /* DoveTests.swift */,
+				774427C8254ACED4002F8EB4 /* Info.plist */,
+			);
+			path = DoveTests;
+			sourceTree = "<group>";
+		};
+		774427D0254ACED4002F8EB4 /* DoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				774427D1254ACED4002F8EB4 /* DoveUITests.swift */,
+				774427D3254ACED4002F8EB4 /* Info.plist */,
+			);
+			path = DoveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		774427AB254ACED1002F8EB4 /* Dove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774427D6254ACED4002F8EB4 /* Build configuration list for PBXNativeTarget "Dove" */;
+			buildPhases = (
+				774427A8254ACED1002F8EB4 /* Sources */,
+				774427A9254ACED1002F8EB4 /* Frameworks */,
+				774427AA254ACED1002F8EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dove;
+			productName = Dove;
+			productReference = 774427AC254ACED1002F8EB4 /* Dove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		774427C1254ACED4002F8EB4 /* DoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774427D9254ACED4002F8EB4 /* Build configuration list for PBXNativeTarget "DoveTests" */;
+			buildPhases = (
+				774427BE254ACED4002F8EB4 /* Sources */,
+				774427BF254ACED4002F8EB4 /* Frameworks */,
+				774427C0254ACED4002F8EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				774427C4254ACED4002F8EB4 /* PBXTargetDependency */,
+			);
+			name = DoveTests;
+			productName = DoveTests;
+			productReference = 774427C2254ACED4002F8EB4 /* DoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		774427CC254ACED4002F8EB4 /* DoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774427DC254ACED4002F8EB4 /* Build configuration list for PBXNativeTarget "DoveUITests" */;
+			buildPhases = (
+				774427C9254ACED4002F8EB4 /* Sources */,
+				774427CA254ACED4002F8EB4 /* Frameworks */,
+				774427CB254ACED4002F8EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				774427CF254ACED4002F8EB4 /* PBXTargetDependency */,
+			);
+			name = DoveUITests;
+			productName = DoveUITests;
+			productReference = 774427CD254ACED4002F8EB4 /* DoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		774427A4254ACED1002F8EB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Warpdrives Team";
+				TargetAttributes = {
+					774427AB254ACED1002F8EB4 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					774427C1254ACED4002F8EB4 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 774427AB254ACED1002F8EB4;
+					};
+					774427CC254ACED4002F8EB4 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 774427AB254ACED1002F8EB4;
+					};
+				};
+			};
+			buildConfigurationList = 774427A7254ACED1002F8EB4 /* Build configuration list for PBXProject "Dove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 774427A3254ACED1002F8EB4;
+			productRefGroup = 774427AD254ACED1002F8EB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				774427AB254ACED1002F8EB4 /* Dove */,
+				774427C1254ACED4002F8EB4 /* DoveTests */,
+				774427CC254ACED4002F8EB4 /* DoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		774427AA254ACED1002F8EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774427BC254ACED3002F8EB4 /* LaunchScreen.storyboard in Resources */,
+				774427B9254ACED3002F8EB4 /* Assets.xcassets in Resources */,
+				774427B7254ACED1002F8EB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774427C0254ACED4002F8EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774427CB254ACED4002F8EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		774427A8254ACED1002F8EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774427B4254ACED1002F8EB4 /* ViewController.swift in Sources */,
+				774427B0254ACED1002F8EB4 /* AppDelegate.swift in Sources */,
+				774427B2254ACED1002F8EB4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774427BE254ACED4002F8EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774427C7254ACED4002F8EB4 /* DoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774427C9254ACED4002F8EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774427D2254ACED4002F8EB4 /* DoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		774427C4254ACED4002F8EB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 774427AB254ACED1002F8EB4 /* Dove */;
+			targetProxy = 774427C3254ACED4002F8EB4 /* PBXContainerItemProxy */;
+		};
+		774427CF254ACED4002F8EB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 774427AB254ACED1002F8EB4 /* Dove */;
+			targetProxy = 774427CE254ACED4002F8EB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		774427B5254ACED1002F8EB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774427B6254ACED1002F8EB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		774427BA254ACED3002F8EB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774427BB254ACED3002F8EB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		774427D4254ACED4002F8EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		774427D5254ACED4002F8EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		774427D7254ACED4002F8EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team.Warpdrives.Dove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		774427D8254ACED4002F8EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team.Warpdrives.Dove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		774427DA254ACED4002F8EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team.Warpdrives.DoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dove.app/Dove";
+			};
+			name = Debug;
+		};
+		774427DB254ACED4002F8EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team.Warpdrives.DoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dove.app/Dove";
+			};
+			name = Release;
+		};
+		774427DD254ACED4002F8EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team.Warpdrives.DoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dove;
+			};
+			name = Debug;
+		};
+		774427DE254ACED4002F8EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team.Warpdrives.DoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		774427A7254ACED1002F8EB4 /* Build configuration list for PBXProject "Dove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774427D4254ACED4002F8EB4 /* Debug */,
+				774427D5254ACED4002F8EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774427D6254ACED4002F8EB4 /* Build configuration list for PBXNativeTarget "Dove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774427D7254ACED4002F8EB4 /* Debug */,
+				774427D8254ACED4002F8EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774427D9254ACED4002F8EB4 /* Build configuration list for PBXNativeTarget "DoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774427DA254ACED4002F8EB4 /* Debug */,
+				774427DB254ACED4002F8EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774427DC254ACED4002F8EB4 /* Build configuration list for PBXNativeTarget "DoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774427DD254ACED4002F8EB4 /* Debug */,
+				774427DE254ACED4002F8EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 774427A4254ACED1002F8EB4 /* Project object */;
+}
