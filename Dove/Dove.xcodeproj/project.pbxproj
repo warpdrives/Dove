@@ -15,6 +15,7 @@
 		774427BC254ACED3002F8EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774427BA254ACED3002F8EB4 /* LaunchScreen.storyboard */; };
 		774427C7254ACED4002F8EB4 /* DoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774427C6254ACED4002F8EB4 /* DoveTests.swift */; };
 		774427D2254ACED4002F8EB4 /* DoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774427D1254ACED4002F8EB4 /* DoveUITests.swift */; };
+		774427E9254BF7CF002F8EB4 /* Dove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774427E8254BF7CF002F8EB4 /* Dove.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		774427CD254ACED4002F8EB4 /* DoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		774427D1254ACED4002F8EB4 /* DoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoveUITests.swift; sourceTree = "<group>"; };
 		774427D3254ACED4002F8EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774427E8254BF7CF002F8EB4 /* Dove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dove.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		774427AE254ACED1002F8EB4 /* Dove */ = {
 			isa = PBXGroup;
 			children = (
+				774427E7254BF79B002F8EB4 /* Source */,
 				774427AF254ACED1002F8EB4 /* AppDelegate.swift */,
 				774427B1254ACED1002F8EB4 /* SceneDelegate.swift */,
 				774427B3254ACED1002F8EB4 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				774427D3254ACED4002F8EB4 /* Info.plist */,
 			);
 			path = DoveUITests;
+			sourceTree = "<group>";
+		};
+		774427E7254BF79B002F8EB4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				774427E8254BF7CF002F8EB4 /* Dove.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				774427B4254ACED1002F8EB4 /* ViewController.swift in Sources */,
 				774427B0254ACED1002F8EB4 /* AppDelegate.swift in Sources */,
 				774427B2254ACED1002F8EB4 /* SceneDelegate.swift in Sources */,
+				774427E9254BF7CF002F8EB4 /* Dove.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
