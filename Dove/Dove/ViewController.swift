@@ -25,9 +25,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let dove = Dove(frame: self.view.bounds)
+        dove.backgroundColor = .systemPink
+        self.view.addSubview(dove)
     }
-
-
 }
 

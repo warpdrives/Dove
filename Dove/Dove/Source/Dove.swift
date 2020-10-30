@@ -22,27 +22,80 @@
 import UIKit
 
 private struct Pool {
-    var reusablePool: Set<UIView>!
-    var visiablePool: Set<UIView>!
+    var reusablePool: Set<UIView>!  // Reuse pool
+    var visiablePool: Set<UIView>!  // Visible pool
 }
 
-class Dove: UIView {
-    private var containScrollView: UIScrollView!
+private struct SidebarValues {
+    var row: Int
+    var column: Int
+    var rowValues: [String]
+    var columnValues: [String]
+}
+
+public enum DoveSidebarType { /// Sidebar type
+    case rowLetters     /// Row letter, column number
+    case columLetters   /// Row number, column letter
+    case numbers        /// Pure numbers
+    case letters        /// Pure letters
+    case custom         /// Customize   NOTE: Need to overload the 'open func convert(_ sidebarType: DoveSidebarType) -> ([String], [String])' method
+}
+
+public class Dove: UIView {
+    private lazy var containScrollView = UIScrollView()
+    
+    private lazy var pool = Pool()
+    private lazy var sidebarValues = SidebarValues(row: 0, column: 0, rowValues: [], columnValues: [])
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        initElements()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    /// Convert enum to tuple
+    /// - Parameter:    sidebarType     Sidebar type
+    /// - Return:          Tuple of row and column values
+    open func convert(_ sidebarType: DoveSidebarType = .rowLetters) -> ([String], [String]) {
+        switch sidebarType {
+        case .rowLetters: break
+        case .columLetters: break
+        case .numbers: break
+        case .letters: break
+        case .custom: break
+        }
+        return (["1"], ["2"])
     }
-    */
+}
 
+public extension Dove {
+    func set(_ row: Int, _ column: Int, _ sidebarType: DoveSidebarType = .rowLetters) {
+        let rowColumnValues = convert(sidebarType)
+        sidebarValues = SidebarValues(row: row,
+                                      column: column,
+                                      rowValues: rowColumnValues.0,
+                                      columnValues: rowColumnValues.1)
+    }
+}
+
+private extension Dove {
+    private func initElements() {
+        containScrollView.frame = self.bounds
+        containScrollView.backgroundColor = self.backgroundColor
+        containScrollView.showsVerticalScrollIndicator = false
+        containScrollView.showsHorizontalScrollIndicator = false
+        containScrollView.delegate = self
+        self.addSubview(containScrollView)
+    }
+}
+
+// Mark: UIScrollViewDelegate
+
+extension Dove: UIScrollViewDelegate {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
+    }
 }
